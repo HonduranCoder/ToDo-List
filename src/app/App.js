@@ -31,7 +31,6 @@ class App extends Component {
     this.setState({ todos: [...this.state.todos, this.state.todoTitle] });
     console.log(this.state.todos);
   };
-
   render() {
     console.log(this.state.todoTitle);
     return (
